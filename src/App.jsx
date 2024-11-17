@@ -38,6 +38,7 @@ function App() {
   return (
     <div className="w-full h-screen bg-black flex items-center justify-center">
       <div className="bg-gray-500 py-4 px-2 rounded-xl min-w-[480px]">
+        <h1 className="text-center text-xl mb-4">Password generator</h1>
         <div className="flex ">
           <input
             type="text"
